@@ -1,0 +1,14 @@
+# 🛡️ OlimpusGuard v2.5
+**OlimpusGuard**, Windows sistemlerinde reklam sunucularını DNS seviyesinde engelleyerek daha temiz ve güvenli bir internet deneyimi sunan açık kaynaklı bir araçtır.
+
+## ✨ Özellikler
+- **Modern GUI:** PyQt6 altyapısıyla geliştirilmiş, minimalist ve şık arayüz.
+- **DNS Blocking:** Reklam sunucularını `127.0.0.1` adresine yönlendirerek engeller.
+- **System Restore:** Tek tıkla orijinal `hosts` dosyasına geri dönebilme.
+- **Admin Support:** Windows üzerinde gerekli izinleri otomatik talep eder.
+
+## 🚀 Kurulum
+1. Python'ın yüklü olduğundan emin olun.
+2. Gerekli kütüphaneyi kurun:
+   ```bash
+   pip install PyQt6
